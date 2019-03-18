@@ -22,7 +22,7 @@ import javax.persistence.Table;
             query = "select count(e) from Employee as e"
             ),
     @NamedQuery(
-            name = "checkRegisterdCode",
+            name = "checkRegisteredCode",
             query = "select count(e) from Employee as e where e.code = :code"
             ),
     @NamedQuery(
